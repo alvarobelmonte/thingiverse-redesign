@@ -4,7 +4,7 @@ import AuthContext from './AuthContext'
 
 const AuthState = props => {
     const state = {
-        popularRoute: process.env.REACT_APP_URL + ':' + process.env.REACT_APP_PORT + '/popular'
+        popularRoute: process.env.REACT_APP_URL +/* ':' + process.env.REACT_APP_PORT + */'/popular'
     }
 
     const setToken =  (token) => {
@@ -25,11 +25,11 @@ const AuthState = props => {
     }
 
     const redirectToRoot =  () => {
-        window.location.href = process.env.REACT_APP_URL + ':' + process.env.REACT_APP_PORT;
+        window.location.href = process.env.REACT_APP_URL /*+ ':' + process.env.REACT_APP_PORT*/;
     }
 
     const redirectToThings =  () => {
-        window.location.href = process.env.REACT_APP_URL + ':' + process.env.REACT_APP_PORT + '/things/popular';
+        window.location.href = process.env.REACT_APP_URL + /*':' + process.env.REACT_APP_PORT +*/ '/things/popular';
     }
 
     return <AuthContext.Provider
