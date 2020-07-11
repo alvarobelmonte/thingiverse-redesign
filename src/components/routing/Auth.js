@@ -19,7 +19,7 @@ const Auth = (props) => {
             + '/auth&response_type=code';
         }
         else {
-            axios.post(process.env.REACT_APP_URL + ':' + process.env.REACT_APP_SERVER_PORT + '/oauth', {
+            axios.post(process.env.REACT_APP_URL /*+ ':' + process.env.REACT_APP_SERVER_PORT + */'/oauth', {
                 code: code
               })
               .then(function (response) {
