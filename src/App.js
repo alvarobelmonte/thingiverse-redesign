@@ -30,7 +30,7 @@ function App() {
   const cache = new InMemoryCache();
 
   const link = new HttpLink({
-    uri: 'http://localhost:4000/graphql'
+    uri: 'https://thingiverse-redesign-server.herokuapp.com/graphql'
   });
 
   const client = new ApolloClient({
