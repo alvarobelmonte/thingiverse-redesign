@@ -40,7 +40,7 @@ const Login = () => {
                     <a href={'https://www.thingiverse.com/login/oauth/authorize?client_id='+ process.env.REACT_APP_CLIENT_ID
                             + '&redirect_uri=' 
                             + process.env.REACT_APP_URL 
-                            + ':' + process.env.REACT_APP_PORT 
+                            //+ ':' + process.env.REACT_APP_PORT 
                             + '/auth&response_type=code'} >
                                 <StyledLoginButton>Login</StyledLoginButton>
                     </a>
