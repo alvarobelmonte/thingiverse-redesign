@@ -11,7 +11,7 @@
     "apollo-client": "^2.6.4",
     "apollo-link-context": "^1.0.19",
     "apollo-link-http": "^1.5.16",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "emotion-theming": "^10.0.19",
     "graphql": "^15.3.0",
     "graphql-tag": "^2.10.4",
